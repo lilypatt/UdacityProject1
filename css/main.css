@@ -83,6 +83,8 @@ h3 {
 
 /*Selector for project image thumbnails*/
 
+/*http://www.w3.org/Style/Examples/007/center.en.html#block*/
+
 .project {
     display: block;
     margin-left: auto;
