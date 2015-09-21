@@ -1,0 +1,313 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.grid {
+    padding-top: 2%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+    padding-left: 10%;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 1vw;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.logo {
+    max-width: 12vw;
+    max-height: 12vw;
+    margin-bottom: 1vw;
+    padding: 0px;
+}
+
+/*tablet*/
+
+@media screen and (max-width: 1000px) {
+    .logo {
+        max-width: 12.5vw;
+        max-height: 12.5vw;
+    }
+}
+
+/*mobile*/
+
+@media screen and (max-width: 550px) {
+    .logo {
+        max-width: 13vw;
+        max-height: 13vw;
+        margin-bottom: 0px;
+        padding-bottom: -25px;
+    }
+}
+
+/*.work {
+    margin-bottom: -40px;
+}*/
+
+header {
+    text-align: right;
+    float: right;
+}
+
+hr {
+    background-color: gray;
+    outline-color: gray;
+    height: 3px;
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*LILY PATTERSON*/
+
+h1 {
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 4vw;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+/*tablet*/
+
+@media screen and (max-width: 1000px) {
+    h1 {
+        /*font-size: 200%;*/
+        font-size: 5vw;
+    }
+}
+
+/*mobile*/
+
+@media screen and (max-width: 550px) {
+    h1 {
+        font-size: 6.5vw;
+    }
+}
+
+/*FRONT-END DEVELOPER*/
+
+h2 {
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+/*tablet*/
+
+@media screen and (max-width: 1000px) {
+    h2 {
+        /*font-size: 80%;*/
+        font-size: 2vw;
+    }
+}
+
+/*mobile*/
+
+@media screen and (max-width: 550px) {
+    h2 {
+        font-size: 2.5vw;
+    }
+}
+
+/*FEATURED WORK*/
+
+h3 {
+    font-size: 2.5vw;
+    padding-bottom: 0.25vw;
+}
+
+/*tablet*/
+
+@media screen and (max-width: 1000px) {
+    h3 {
+        font-size: 3vw;
+        /*padding-bottom: 2vw;*/
+    }
+}
+
+/*mobile*/
+
+@media screen and (max-width: 550px) {
+    h3 {
+        font-size: 5vw;
+        /*padding-bottom: 3vw;*/
+    }
+}
+
+/*PROJECT __*/
+
+h4 {
+    text-transform: uppercase;
+    margin-top: 8px;
+    text-align: center;
+    font-size: 1.3vw;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+/*tablet*/
+
+@media screen and (max-width: 1000px) {
+    h4 {
+        font-size: 2vw;
+    }
+}
+
+/*mobile*/
+
+@media screen and (max-width: 550px) {
+    h4 {
+        font-size: 4vw;
+    }
+}
+
+/*PROJECT NAME*/
+
+p {
+    font-weight: lighter;
+    margin-top: -20px;
+    text-align: center;
+    font-size: 1.2vw;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+/*tablet*/
+
+@media screen and (max-width: 1000px) {
+    p {
+        font-size: 1.8vw;
+    }
+}
+
+/*mobile*/
+
+@media screen and (max-width: 550px) {
+    p {
+        font-size: 4vw;
+    }
+}
+
+footer {
+    margin-top: 100px;
+    padding-top: 50px;
+    text-align: center;
+    float: bottom;
+    clear: both;
+}
+
+#left {
+    margin-right: 24px;
+    float: left;
+}
+
+#middle {
+    margin-right: 24px;
+    float: left;
+}
+
+#right {
+    /*margin-right: 24px;*/
+    float: left;
+}
+
+/*tablet media queries*/
+
+@media screen and (max-width: 550px) {
+    .grid {
+        width: auto;
+    }
+
+    #left {
+        width: auto;
+        float: left;
+        margin: 0px;
+        /*text-align: center;*/
+        clear: both;
+        /*padding: 1vw 4%;*/
+    }
+
+    #middle {
+        width: auto;
+        float: left;
+        margin: 0px;
+        /*ext-align: center;*/
+        clear: both;
+        /*padding: 1vw 4%;
+        margin: 0px 0px 5px 5px;*/
+    }
+
+    #right {
+        /*clear: both;*/
+        width: auto;
+        float: left;
+        margin-right: 24px;
+    }
+}
+
+/*mobie media queries*/
+
