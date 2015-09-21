@@ -1,19 +1,17 @@
-* {
+body,
+div {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-* {
+body {
     font-family: 'Lato', sans-serif;
 }
 
 .grid {
-    padding-top: 2%;
-    padding-right: 10%;
-    padding-bottom: 2%;
-    padding-left: 10%;
+    padding: 2% 10%;
 }
 
 .row {
@@ -106,7 +104,6 @@ h4 {
 
 p {
     font-weight: lighter;
-    margin-top: -20px;
     text-align: center;
     font-size: 1.2vw;
     margin-top: 0;
@@ -121,19 +118,22 @@ footer {
     clear: both;
 }
 
-#one, #four {
+#one,
+#four {
     margin-right: 5%;
     float: left;
     width: 30%;
 }
 
-#two, #five {
+#two,
+#five {
     margin-right: 5%;
     float: left;
     width: 30%;
 }
 
-#three, #six {
+#three,
+#six {
     float: left;
     margin-right: 0;
     width: 30%;
@@ -168,13 +168,17 @@ footer {
     }
 
 
-    #one, #three, #five {
+    #one,
+    #three,
+    #five {
         width: 45%;
         margin-right: 10%;
     }
 
 
-    #two, #four, #six {
+    #two,
+    #four,
+    #six {
         width: 45%;
         margin-right: 0;
     }
@@ -186,7 +190,7 @@ footer {
     p {
         font-size: 4vw;
     }
-    
+
     h1 {
         font-size: 6.5vw;
     }
@@ -217,7 +221,12 @@ footer {
         padding-bottom: -25px;
     }
 
-    #one, #two, #three, #four, #five, #six {
+    #one,
+    #two,
+    #three,
+    #four,
+    #five,
+    #six {
         width: 100%;
         float: center;
         clear: both;
