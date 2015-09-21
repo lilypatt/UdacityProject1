@@ -34,7 +34,7 @@
     max-width: 12vw;
     max-height: 12vw;
     margin-bottom: 1vw;
-    padding: 0px;
+    padding: 0;
 }
 
 header {
@@ -46,8 +46,8 @@ hr {
     background-color: gray;
     outline-color: gray;
     height: 3px;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 img {
@@ -61,8 +61,8 @@ h1 {
     text-transform: uppercase;
     font-weight: lighter;
     font-size: 4vw;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 /*Front-End Developer*/
@@ -70,8 +70,8 @@ h1 {
 h2 {
     text-transform: uppercase;
     font-size: 1.5vw;
-    margin-top: 0px;
-    padding: 0px;
+    margin-top: 0;
+    padding: 0;
 }
 
 /*Featured Work header*/
@@ -96,7 +96,7 @@ h4 {
     margin-top: 8px;
     text-align: center;
     font-size: 1.3vw;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     padding-bottom: -10px;
 }
 
@@ -107,8 +107,8 @@ p {
     margin-top: -20px;
     text-align: center;
     font-size: 1.2vw;
-    margin-top: 0px;
-    padding-top: 0px;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 footer {
@@ -133,7 +133,7 @@ footer {
 
 #three, #six {
     float: left;
-    margin-right: 0px;
+    margin-right: 0;
     width: 30%;
 }
 
@@ -174,7 +174,7 @@ footer {
 
     #two, #four, #six {
         width: 45%;
-        margin-right: 0%;
+        margin-right: 0;
     }
 }
 
@@ -211,7 +211,7 @@ footer {
     .logo {
         max-width: 13vw;
         max-height: 13vw;
-        margin-bottom: 0px;
+        margin-bottom: 0;
         padding-bottom: -25px;
     }
 
