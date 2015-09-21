@@ -20,51 +20,10 @@
     width: 100%;
     display: flex;
     padding-top: 25px;
-    padding-bottom: 1vw;
-}
-
-.col-1 {
-    width: 8.33%;
-}
-
-.col-2 {
-    width: 16.66%;
-}
-
-.col-3 {
-    width: 25%;
-}
-
-.col-4 {
-    width: 33.33%;
-}
-
-.col-5 {
-    width: 41.66%;
-}
-
-.col-6 {
-    width: 50%;
-}
-
-.col-7 {
-    width: 58.33%;
-}
-
-.col-8 {
-    width: 66.66%;
-}
-
-.col-9 {
-    width: 75%;
 }
 
 .col-10 {
     width: 83.33%;
-}
-
-.col-11 {
-    width: 91.66%;
 }
 
 .col-12 {
@@ -77,10 +36,6 @@
     margin-bottom: 1vw;
     padding: 0px;
 }
-
-/*.work {
-    margin-bottom: -40px;
-}*/
 
 header {
     text-align: right;
@@ -100,7 +55,7 @@ img {
     max-height: 100%;
 }
 
-/*LILY PATTERSON*/
+/*Lily Patterson*/
 
 h1 {
     text-transform: uppercase;
@@ -110,7 +65,7 @@ h1 {
     padding-bottom: 0px;
 }
 
-/*FRONT-END DEVELOPER*/
+/*Front-End Developer*/
 
 h2 {
     text-transform: uppercase;
@@ -119,14 +74,14 @@ h2 {
     padding: 0px;
 }
 
-/*FEATURED WORK*/
+/*Featured Work header*/
 
 h3 {
     font-size: 2.5vw;
-    padding-bottom: 0.25vw;
+    text-align: left;
 }
 
-/*PROJECT IMG*/
+/*Selector for project image thumbnails*/
 
 .project {
     display: block;
@@ -134,7 +89,7 @@ h3 {
     margin-right: auto;
 }
 
-/*PROJECT __*/
+/*Project #*/
 
 h4 {
     text-transform: uppercase;
@@ -142,10 +97,10 @@ h4 {
     text-align: center;
     font-size: 1.3vw;
     margin-bottom: 0px;
-    padding-bottom: 0px;
+    padding-bottom: -10px;
 }
 
-/*PROJECT NAME*/
+/*Project Name*/
 
 p {
     font-weight: lighter;
@@ -164,25 +119,25 @@ footer {
     clear: both;
 }
 
-#left {
-    margin-right: 24px;
+#one, #four {
+    margin-right: 5%;
     float: left;
     width: 30%;
 }
 
-#middle {
-    margin-right: 24px;
+#two, #five {
+    margin-right: 5%;
     float: left;
     width: 30%;
 }
 
-#right {
+#three, #six {
     float: left;
     margin-right: 0px;
     width: 30%;
 }
 
-/*tablet media queries*/
+/*Tablet media queries*/
 
 @media screen and (max-width: 1000px) {
     p {
@@ -190,18 +145,15 @@ footer {
     }
 
     h1 {
-        /*font-size: 200%;*/
         font-size: 5vw;
     }
 
     h2 {
-        /*font-size: 80%;*/
         font-size: 2vw;
     }
 
     h3 {
         font-size: 3vw;
-        /*padding-bottom: 2vw;*/
     }
 
     h4 {
@@ -213,22 +165,20 @@ footer {
         max-height: 12.5vw;
     }
 
-    #right {
-        margin-right: 24px;
-        float: left;
+
+    #one, #three, #five {
         width: 45%;
+        margin-right: 10%;
     }
 
-    #middle {
-        width: 45%;
-    }
 
-    #left {
+    #two, #four, #six {
         width: 45%;
+        margin-right: 0%;
     }
 }
 
-/*mobile media queries*/
+/*Mobile media queries*/
 
 @media screen and (max-width: 615px) {
     p {
@@ -245,7 +195,9 @@ footer {
 
     h3 {
         font-size: 5vw;
-        /*padding-bottom: 3vw;*/
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     h4 {
@@ -263,29 +215,9 @@ footer {
         padding-bottom: -25px;
     }
 
-    #left {
-        width: 90%;
+    #one, #two, #three, #four, #five, #six {
+        width: 100%;
         float: center;
-        margin: 0px;
-        /*text-align: center;*/
         clear: both;
-        /*padding: 1vw 4%;*/
-    }
-
-    #middle {
-        width: 90%;
-        float: center;
-        margin: 0px;
-        /*ext-align: center;*/
-        clear: both;
-        /*padding: 1vw 4%;
-        margin: 0px 0px 5px 5px;*/
-    }
-
-    #right {
-        /*clear: both;*/
-        width: 90%;
-        float: center;
-        margin-right: 0px;
     }
 }
